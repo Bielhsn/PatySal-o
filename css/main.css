@@ -56,6 +56,26 @@ html {
 
 @mixin for-phone-only {
   @media (max-width: 400px) {@content; } 
+  html {
+    font-size: 8.375px;
+  }
+    img {
+      float: left;
+      display: flex;
+      margin-left: -43rem;
+      margin-top: -4rem;
+    }
+
+    #photos{
+      float: left;
+      display: flex;
+      margin-top: -15rem;
+    }
+
+    .titles{
+      margin-top: -20rem;
+      margin-left: 15rem;
+    }
 }
 
 html,
