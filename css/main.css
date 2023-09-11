@@ -53,30 +53,39 @@ html {
     font-size: 10px;
   }
 }
-
-@mixin for-phone-only {
-  @media (max-width: 400px) {@content; } 
+  @media only screen and (max-width: 400px) { 
   html {
     font-size: 8.375px;
   }
     img {
       float: left;
       display: flex;
-      margin-left: -43rem;
+      margin-left: -42rem;
       margin-top: -4rem;
     }
 
     #photos{
       float: left;
       display: flex;
-      margin-top: -15rem;
+      margin-top: -20rem;
     }
 
     .titles{
-      margin-top: -20rem;
+      display: flex;
+      margin-top: 15rem;
       margin-left: 15rem;
     }
-}
+
+    .frase{
+      margin-top: 3rem;
+      margin-bottom: 10rem;
+    }
+
+    #op{
+      margin-top: -12rem;
+    }
+  }
+
 
 html,
 body {
@@ -1093,7 +1102,7 @@ h1.intro-header {
   line-height: 1.324;
   color: #151515;
   position: relative;
-  padding-bottom: 3.6rem;
+  padding-bottom: 2rem;
 }
 
 h1.intro-header::before {
@@ -1105,6 +1114,10 @@ h1.intro-header::before {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+#sobre{
+  margin-top: 17rem;
 }
 
 .wide {
