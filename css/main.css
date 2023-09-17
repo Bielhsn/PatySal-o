@@ -413,6 +413,29 @@ form,
   margin-bottom: 3rem;
 }
 
+#button-contact{
+  border: 0.3rem solid #ffffff;
+    border-radius: 5%;
+    padding: 1.5rem;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+#button-scheduling{
+  border: 0.3rem solid #ffffff;
+    border-radius: 5%;
+    padding: 1.5rem;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+#button-scheduling-top{
+  border: 0.3rem solid #ffffff;
+    border-radius: 5%;
+    padding: 1.5rem;
+    margin-right: 10px;
+    color: #ffffff;
+}
 
 /* ------------------------------------------------------------------- 
  * floated image - (_document-setup)  
@@ -1364,6 +1387,22 @@ h1.intro-header::before {
     display: flex;
     margin-top: -1rem;
     margin-left: 32%;
+  }
+
+  #button-scheduling{
+    border: 0.3rem solid #ffffff;
+    border-radius: 5%;
+    padding: 1.5rem;
+    margin-right: 10px;
+    color: #ffffff;
+  }
+
+  #button-scheduling-top{
+    border: 0.3rem solid #ffffff;
+    border-radius: 5%;
+    padding: 1.5rem;
+    margin-right: -20px;
+    color: #ffffff;
   }
 }
 
@@ -2739,4 +2778,4 @@ footer ul a:visited {
 }
 
 
-/*# sourceMappingURL=main.css.map */
+/*end*/
