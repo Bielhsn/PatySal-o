@@ -60,7 +60,7 @@ html {
     img {
       float: left;
       display: flex;
-      margin-left: -42rem;
+      margin-left: -71rem;
       margin-top: -4rem;
     }
 
@@ -1157,7 +1157,7 @@ h1.intro-header::before {
   width: 55%;
   height: 115px;
   position: fixed;
-  left: 50%;
+  left: 45%;
   -webkit-transform: translateX(-50%);
   z-index: 501;
   border-radius: 1%;
@@ -1173,7 +1173,7 @@ h1.intro-header::before {
 
 .header-logo {
   position: absolute;
-  left: 250px;
+  left: 515px;
   top: 48%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1357,8 +1357,8 @@ h1.intro-header::before {
     right: auto;
     left: 0;
     background-color: #71392C;
-    padding: 120px 40px 30px;
-    margin-top: 8rem;
+    padding: 54px 37px 10px;
+    margin-top: 1rem;
     margin-left: 8rem;
   }
   #header-nav-wrap .header-main-nav {
