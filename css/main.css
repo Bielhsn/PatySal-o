@@ -146,6 +146,7 @@ h1, .h01 {
 }
 
 @media only screen and (max-width: 600px) {
+  
   h1,
   .h01 {
     font-size: 2.6rem;
@@ -1341,6 +1342,28 @@ h1.intro-header::before {
 @media only screen and (max-width: 1230px) {
   #header {
     max-width: none;
+  }
+  #header{
+  width: 55%;
+    height: 115px;
+    position: fixed;
+    left: 70%;
+    -webkit-transform: translateX(-50%);
+    z-index: 501;
+    border-radius: 1%;
+  }
+
+  img{
+    float: left;
+      display: flex;
+      margin-left: -71rem;
+      margin-top: -4rem;
+  }
+
+  .titles{
+    display: flex;
+    margin-top: -1rem;
+    margin-left: 32%;
   }
 }
 
