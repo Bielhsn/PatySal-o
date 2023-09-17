@@ -13,46 +13,29 @@
 
   <h1>Formulário para Agendamento</h1>
 
-  <!-- Sem redirecionamento -->
-  <!-- <form action="#" method="get" onsubmit="abrirWhatsapp()">
-    <input type="text" name="nome" id="nome" placeholder="Nome" required><br>
-    <input type="tel" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required><br>
-    <input type="data" name="data" id="data" placeholder="Data" required><br>
-    <textarea name="msg" id="msg" placeholder="Mensagem" cols="30" rows="5" required></textarea><br>
-    <button type="submit"><img src="assets/whatsapp.svg" alt="Icone Whatsapp"><span>Enviar dados p/ Whatsapp</span>
-    </button>
-  </form> -->
-
   <!-- Com redirecionamento p/ página: obrigado.html -->
   <form action="obrigado.html" method="get" onsubmit="abrirWhatsapp()">
     <label class="lb" for="nome">Nome</label>
-    <input type="text" name="nome" id="nome" required><br>
+    <input type="text" placeholder="Nome" name="nome" id="nome" required><br>
     <label class="lb" for="nome">Sobrenome</label>
-    <input type="tel" name="sobrenome" id="sobrenome" required><br>
+    <input type="tel" placeholder="Sobrenome" name="sobrenome" id="sobrenome" required><br>
     <label for="data" class="lb">Data de agendamento</label>
       <input name="data" id="data" type="date" class="infos">
     <label for="data" class="lb">Mensagem</label>
     <textarea name="msg" id="msg" placeholder="Ex: Gostaria de realizar uma progressiva" cols="30" rows="5" required></textarea><br>
     <button type="submit"><img src="images/whatsapp.svg" alt="Icone Whatsapp"><span>Enviar dados p/ Whatsapp</span>
   </form>
-
-  <script>
-    function abrirWhatsapp() {
-      var nome = document.getElementById("nome").value;
-      var sobrenome = document.getElementById("sobrenome").value;
-      var data = document.getElementById("data").value;
-      var msg = document.getElementById("msg").value;
-      var url = "https://wa.me/11967029118?text=" // Seu numero
-        + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
-        + "%0a" // Quebra de linha
-        + "*Nome*: " + nome + "%0a" // Dados do formulário
-        + "*Sobrenome*: " + sobrenome + "%0a"
-        + "*Data*: " + data + "%0a"
-        + "*Mensagem*: " + msg;
-      window.open(url, '_blank').focus();
-    }
+  
+  <script type="text/javascript" src="./js/wpp.js">
+    
   </script>
 
+  <div>
+    <a href="./index.html">
+      <button>Voltar</button>
+    </a>
+  </div>
+  
 </body>
 
 </html>
